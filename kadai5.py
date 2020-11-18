@@ -22,7 +22,6 @@ def set_driver(driver_path,headless_flg):
     # ChromeのWebDriverオブジェクトを作成する。
     return Chrome(executable_path=os.getcwd() + "\\" + driver_path,options=options)
 
-list = []
 ### main処理
 def main():
     #search_keyword="高収入"
